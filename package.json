@@ -1,7 +1,7 @@
 {
   "name": "lumiere-jewels",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.1", 
   "type": "module",
   "homepage": "https://juliavlasova.github.io/lumiere-jewels",
   "scripts": {
