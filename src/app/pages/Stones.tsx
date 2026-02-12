@@ -8,35 +8,35 @@ export default function Stones() {
       description:
         "Самый твердый минерал на Земле. Символ вечной любви и непоколебимости.",
       properties: "Твердость 10 по шкале Мооса",
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
     {
       name: "Сапфиры",
       description:
         "Благородный корунд синего цвета. Символизирует мудрость и верность.",
       properties: "Твердость 9 по шкале Мооса",
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
     {
       name: "Изумруды",
       description:
         "Зеленый берилл высшего качества. Камень гармонии и природной силы.",
       properties: "Твердость 7.5-8 по шкале Мооса",
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
     },
     {
       name: "Рубины",
       description:
         "Красный корунд, символ страсти и энергии. Один из самых ценных камней.",
       properties: "Твердость 9 по шкале Мооса",
-      image: "/src/images/category-1.jpg",
+      image: "/public/images/category-1.jpg",
     },
     {
       name: "Жемчуг",
       description:
         "Органический драгоценный камень, рожденный в раковинах моллюсков.",
       properties: "Твердость 2.5-4.5 по шкале Мооса",
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
   ];
 
@@ -79,7 +79,7 @@ export default function Stones() {
       <div
         className="relative h-96 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/src/images/article-1.jpg')`,
+          backgroundImage: `url('/public/images/article-1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/50" />

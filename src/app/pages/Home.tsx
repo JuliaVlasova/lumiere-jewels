@@ -39,19 +39,19 @@ export default function Home() {
 
   const slides = [
     {
-      image: "/src/images/slider-1.jpg",
+      image: "/public/images/slider-1.jpg",
       title: "Вечная классика в деталях",
       subtitle: "Кольца с натуральными сапфирами",
       link: "/catalog/sapphires",
     },
     {
-      image: "/src/images/slider-2.jpg",
+      image: "/public/images/slider-2.jpg",
       title: "Создай свой стиль",
       subtitle: "Серебро 925 с искусственными камнями",
       link: "/catalog/silver",
     },
     {
-      image: "/src/images/slider-3.jpg",
+      image: "/public/images/slider-3.jpg",
       title: "Чистота платины. Сила чувств",
       subtitle: "Эксклюзивная коллекция из платины",
       link: "/catalog/platinum",
@@ -62,25 +62,25 @@ export default function Home() {
     {
       title: "Натуральные камни",
       description: "Драгоценность от природы",
-      image: "/src/images/category-1.jpg",
+      image: "/public/images/category-1.jpg",
       link: "/stones",
     },
     {
       title: "Искусственные камни",
       description: "Совершенство технологий",
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
       link: "/stones",
     },
     {
       title: "Драгоценные металлы",
       description: "Золото, серебро, платина",
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
       link: "/metals",
     },
     {
       title: "Подбор по случаю",
       description: "Для каждого момента",
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
       link: "/guide",
     },
   ];
@@ -89,19 +89,19 @@ export default function Home() {
     {
       title: "Как отличить фианит от бриллианта?",
       excerpt: "Подробный гид по различиям между натуральными и искусственными камнями.",
-      image: "/src/images/article-1.jpg",
+      image: "/public/images/article-1.jpg",
       link: "/blog",
     },
     {
       title: "Как выбрать размер кольца?",
       excerpt: "Простые способы определить свой размер кольца в домашних условиях.",
-      image: "/src/images/article-2.jpg",
+      image: "/public/images/article-2.jpg",
       link: "/blog",
     },
     {
       title: "Уход за ювелирными изделиями",
       excerpt: "Советы по правильному хранению и очистке драгоценностей.",
-      image: "/src/images/article-3.jpg",
+      image: "/public/images/article-3.jpg",
       link: "/blog",
     },
   ];

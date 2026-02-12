@@ -12,7 +12,7 @@ export default function Blog() {
       author: "Анна Петрова",
       date: "8 февраля 2026",
       category: "Экспертиза",
-      image: "/src/images/article-1.jpg",
+      image: "/public/images/article-1.jpg",
     },
     {
       title: "Как выбрать размер кольца?",
@@ -23,7 +23,7 @@ export default function Blog() {
       author: "Мария Соколова",
       date: "5 февраля 2026",
       category: "Советы",
-      image: "/src/images/article-2.jpg",
+      image: "/public/images/article-2.jpg",
     },
     {
       title: "Уход за ювелирными изделиями",
@@ -34,7 +34,7 @@ export default function Blog() {
       author: "Дмитрий Иванов",
       date: "1 февраля 2026",
       category: "Уход",
-      image: "/src/images/article-3.jpg",
+      image: "/public/images/article-3.jpg",
     },
     {
       title: "Тренды в ювелирном мире 2026",
@@ -45,7 +45,7 @@ export default function Blog() {
       author: "Елена Волкова",
       date: "28 января 2026",
       category: "Тренды",
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
     {
       title: "История изумрудов: от древности до наших дней",
@@ -56,7 +56,7 @@ export default function Blog() {
       author: "Анна Петрова",
       date: "25 января 2026",
       category: "История",
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
     {
       title: "Как выбрать помолвочное кольцо",
@@ -67,7 +67,7 @@ export default function Blog() {
       author: "Мария Соколова",
       date: "20 января 2026",
       category: "Советы",
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
     },
   ];
 

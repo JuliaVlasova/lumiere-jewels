@@ -16,9 +16,9 @@ export default function ProductDetail() {
       "Это кольцо для тех, кто ценит ясность линий и холодное сияние лунного света, застывшего в камне. Минималистичный дизайн подчеркивает красоту фианита, который играет всеми гранями при любом освещении.",
     price: 15900,
     images: [
-      "/src/images/category-4.jpg",
-      "/src/images/category-3.jpg",
-      "/src/images/category-2.jpg",
+      "/public/images/category-4.jpg",
+      "/public/images/category-3.jpg",
+      "/public/images/category-2.jpg",
     ],
     specifications: {
       metal: "Серебро 925 пробы",
@@ -57,13 +57,13 @@ export default function ProductDetail() {
       id: 2,
       name: "Серьги в комплект",
       price: 18900,
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
     {
       id: 3,
       name: "Подвеска в комплект",
       price: 12900,
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
   ];
 

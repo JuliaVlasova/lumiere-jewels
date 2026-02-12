@@ -13,7 +13,7 @@ export default function Guide() {
         "Центральный камень от 0.5 карата",
         "Классическая оправа",
       ],
-      image: "/src/images/category-1.jpg",
+      image: "/public/images/category-1.jpg",
     },
     {
       title: "На свадьбу",
@@ -25,7 +25,7 @@ export default function Guide() {
         "Классический дизайн без крупных камней",
         "Гравировка внутри кольца",
       ],
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
     },
     {
       title: "На юбилей",
@@ -37,7 +37,7 @@ export default function Guide() {
         "Возможность гравировки даты",
         "Премиум материалы",
       ],
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
     {
       title: "На день рождения",
@@ -49,7 +49,7 @@ export default function Guide() {
         "Современный или классический дизайн",
         "Упаковка в подарочной коробке",
       ],
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
   ];
 
@@ -78,7 +78,7 @@ export default function Guide() {
         "Геометричные формы",
         "Монохромность",
       ],
-      image: "/src/images/category-4.jpg",
+      image: "/public/images/category-4.jpg",
     },
     {
       name: "Классика",
@@ -89,7 +89,7 @@ export default function Guide() {
         "Драгоценные камни",
         "Традиционные формы",
       ],
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
     {
       name: "Авангард",
@@ -100,7 +100,7 @@ export default function Guide() {
         "Необычные формы",
         "Современные техники",
       ],
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
     },
     {
       name: "Винтаж",
@@ -111,7 +111,7 @@ export default function Guide() {
         "Орнаменты",
         "Состаренный вид",
       ],
-      image: "/src/images/category-1.jpg",
+      image: "/public/images/category-1.jpg",
     },
   ];
 

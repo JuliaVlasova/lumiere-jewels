@@ -31,7 +31,7 @@ export default function Metals() {
         "Периодически очищайте в теплой мыльной воде",
         "Избегайте контакта с хлором и агрессивными химикатами",
       ],
-      image: "/src/images/category-1.jpg",
+      image: "/public/images/category-1.jpg",
     },
     {
       name: "Серебро",
@@ -59,7 +59,7 @@ export default function Metals() {
         "Снимайте при контакте с водой и косметикой",
         "Для очистки используйте специальные средства для серебра",
       ],
-      image: "/src/images/category-2.jpg",
+      image: "/public/images/category-2.jpg",
     },
     {
       name: "Платина",
@@ -85,7 +85,7 @@ export default function Metals() {
         "Можно носить постоянно, не боясь повреждений",
         "Периодически полируйте у ювелира",
       ],
-      image: "/src/images/category-3.jpg",
+      image: "/public/images/category-3.jpg",
     },
   ];
 

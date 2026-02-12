@@ -34,19 +34,19 @@ export default function About() {
       name: "Анна Петрова",
       role: "Главный дизайнер",
       bio: "15 лет опыта в ювелирном дизайне. Выпускница МГХПА им. С.Г. Строганова.",
-      image: "/src/images/slider-1.jpg",
+      image: "/public/images/slider-1.jpg",
     },
     {
       name: "Дмитрий Иванов",
       role: "Мастер-ювелир",
       bio: "20 лет создания эксклюзивных украшений. Обладатель множества наград.",
-      image: "/src/images/slider-2.jpg",
+      image: "/public/images/slider-2.jpg",
     },
     {
       name: "Мария Соколова",
       role: "Эксперт по камням",
       bio: "Геммолог с международным сертификатом. Специалист по оценке драгоценных камней.",
-      image: "/src/images/slider-3.jpg",
+      image: "/public/images/slider-3.jpg",
     },
   ];
 
@@ -56,7 +56,7 @@ export default function About() {
       <div
         className="relative h-[500px] bg-cover bg-center"
         style={{
-          backgroundImage: `url('/src/images/slider-1.jpg')`,
+          backgroundImage: `url('/public/images/slider-1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
@@ -152,7 +152,7 @@ export default function About() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/src/images/slider-1.jpg"
+                src="/public/images/slider-1.jpg"
                 alt="Мастерская"
                 className="w-full h-full object-cover"
               />
