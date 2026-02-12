@@ -43,7 +43,7 @@ export default function Root() {
           {/* Main Navigation */}
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2 group">
+            <Link to="/lumiere-jewels/" className="flex items-center gap-2 group">
               <Gem className="w-8 h-8 text-amber-600" />
               <div className="flex flex-col">
                 <span className="text-2xl font-light tracking-wider text-gray-900 cursor-pointer">
@@ -79,7 +79,7 @@ export default function Root() {
                         <ul className="space-y-2">
                           <li>
                             <Link
-                              to="/catalog/gold"
+                              to="/lumiere-jewels/catalog/gold"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Золото
@@ -87,7 +87,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/silver"
+                              to="/lumiere-jewels/catalog/silver"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Серебро
@@ -95,7 +95,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/platinum"
+                              to="/lumiere-jewels/catalog/platinum"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Платина
@@ -110,7 +110,7 @@ export default function Root() {
                         <ul className="space-y-2">
                           <li>
                             <Link
-                              to="/catalog/rings"
+                              to="/lumiere-jewels/catalog/rings"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Кольца
@@ -118,7 +118,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/earrings"
+                              to="/lumiere-jewels/catalog/earrings"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Серьги
@@ -126,7 +126,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/pendants"
+                              to="/lumiere-jewels/catalog/pendants"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Подвески
@@ -134,7 +134,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/bracelets"
+                              to="/lumiere-jewels/catalog/bracelets"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Браслеты
@@ -149,7 +149,7 @@ export default function Root() {
                         <ul className="space-y-2">
                           <li>
                             <Link
-                              to="/catalog/diamonds"
+                              to="/lumiere-jewels/catalog/diamonds"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Бриллианты
@@ -157,7 +157,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/sapphires"
+                              to="/lumiere-jewels/catalog/sapphires"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Сапфиры
@@ -165,7 +165,7 @@ export default function Root() {
                           </li>
                           <li>
                             <Link
-                              to="/catalog/emeralds"
+                              to="/lumiere-jewels/catalog/emeralds"
                               className="text-sm text-gray-600 hover:text-amber-600 transition-colors"
                             >
                               Изумруды
@@ -178,9 +178,9 @@ export default function Root() {
                 )}
               </div>
               <Link
-                to="/stones"
+                to="/lumiere-jewels/stones"
                 className={`text-sm tracking-wide transition-colors ${
-                  isActive("/stones")
+                  isActive("/lumiere-jewels/stones")
                     ? "text-amber-600"
                     : "text-gray-700 hover:text-amber-600"
                 }`}
@@ -188,7 +188,7 @@ export default function Root() {
                 О КАМНЯХ
               </Link>
               <Link
-                to="/metals"
+                to="/lumiere-jewels/metals"
                 className={`text-sm tracking-wide transition-colors ${
                   isActive("/metals")
                     ? "text-amber-600"
@@ -198,7 +198,7 @@ export default function Root() {
                 О МЕТАЛЛАХ
               </Link>
               <Link
-                to="/guide"
+                to="/lumiere-jewels/guide"
                 className={`text-sm tracking-wide transition-colors ${
                   isActive("/guide")
                     ? "text-amber-600"
@@ -208,7 +208,7 @@ export default function Root() {
                 ГИД ПО ВЫБОРУ
               </Link>
               <Link
-                to="/blog"
+                to="/lumiere-jewels/blog"
                 className={`text-sm tracking-wide transition-colors ${
                   isActive("/blog")
                     ? "text-amber-600"
@@ -218,7 +218,7 @@ export default function Root() {
                 БЛОГ
               </Link>
               <Link
-                to="/about"
+                to="/lumiere-jewels/about"
                 className={`text-sm tracking-wide transition-colors ${
                   isActive("/about")
                     ? "text-amber-600"
@@ -265,42 +265,42 @@ export default function Root() {
           <div className="lg:hidden border-t border-gray-100 bg-white">
             <nav className="container mx-auto px-4 py-4 space-y-4">
               <Link
-                to="/catalog"
+                to="/lumiere-jewels/catalog"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 КАТАЛОГ
               </Link>
               <Link
-                to="/stones"
+                to="/lumiere-jewels/lumiere-jewels/stones"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 О КАМНЯХ
               </Link>
               <Link
-                to="/metals"
+                to="/lumiere-jewels/metals"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 О МЕТАЛЛАХ
               </Link>
               <Link
-                to="/guide"
+                to="/lumiere-jewels/guide"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 ГИД ПО ВЫБОРУ
               </Link>
               <Link
-                to="/blog"
+                to="/lumiere-jewels/blog"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 БЛОГ
               </Link>
               <Link
-                to="/about"
+                to="/lumiere-jewels/about"
                 className="block text-sm tracking-wide text-gray-700 hover:text-amber-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -341,7 +341,7 @@ export default function Root() {
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
                   <Link
-                    to="/catalog"
+                    to="/lumiere-jewels/catalog"
                     className="hover:text-amber-500 transition-colors"
                   >
                     Каталог
@@ -349,7 +349,7 @@ export default function Root() {
                 </li>
                 <li>
                   <Link
-                    to="/stones"
+                    to="/lumiere-jewels/stones"
                     className="hover:text-amber-500 transition-colors"
                   >
                     О камнях
@@ -357,7 +357,7 @@ export default function Root() {
                 </li>
                 <li>
                   <Link
-                    to="/guide"
+                    to="/lumiere-jewels/guide"
                     className="hover:text-amber-500 transition-colors"
                   >
                     Гид по выбору
@@ -365,7 +365,7 @@ export default function Root() {
                 </li>
                 <li>
                   <Link
-                    to="/blog"
+                    to="/lumiere-jewels/blog"
                     className="hover:text-amber-500 transition-colors"
                   >
                     Блог

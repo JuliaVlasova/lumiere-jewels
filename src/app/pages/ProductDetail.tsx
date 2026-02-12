@@ -16,9 +16,9 @@ export default function ProductDetail() {
       "Это кольцо для тех, кто ценит ясность линий и холодное сияние лунного света, застывшего в камне. Минималистичный дизайн подчеркивает красоту фианита, который играет всеми гранями при любом освещении.",
     price: 15900,
     images: [
-      "/public/images/category-4.jpg",
-      "/public/images/category-3.jpg",
-      "/public/images/category-2.jpg",
+      "/lumiere-jewels/images/category-4.jpg",
+      "/lumiere-jewels/images/category-3.jpg",
+      "/lumiere-jewels/images/category-2.jpg",
     ],
     specifications: {
       metal: "Серебро 925 пробы",
@@ -57,13 +57,13 @@ export default function ProductDetail() {
       id: 2,
       name: "Серьги в комплект",
       price: 18900,
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
     },
     {
       id: 3,
       name: "Подвеска в комплект",
       price: 12900,
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
     },
   ];
 
@@ -73,11 +73,11 @@ export default function ProductDetail() {
       <div className="border-b border-gray-100">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center gap-2 text-sm text-gray-600">
-            <Link to="/" className="hover:text-amber-600">
+            <Link to="/lumiere-jewels/" className="hover:text-amber-600">
               Главная
             </Link>
             <span>/</span>
-            <Link to="/catalog" className="hover:text-amber-600">
+            <Link to="/lumiere-jewels/catalog" className="hover:text-amber-600">
               Каталог
             </Link>
             <span>/</span>
@@ -182,7 +182,7 @@ export default function ProductDetail() {
                 ))}
               </div>
               <Link
-                to="/guide"
+                to="/lumiere-jewels/guide"
                 className="text-sm text-amber-600 hover:text-amber-700 mt-2 inline-block"
               >
                 Как определить размер?

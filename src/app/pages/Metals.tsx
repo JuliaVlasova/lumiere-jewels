@@ -31,7 +31,7 @@ export default function Metals() {
         "Периодически очищайте в теплой мыльной воде",
         "Избегайте контакта с хлором и агрессивными химикатами",
       ],
-      image: "/public/images/category-1.jpg",
+      image: "/lumiere-jewels/images/category-1.jpg",
     },
     {
       name: "Серебро",
@@ -59,7 +59,7 @@ export default function Metals() {
         "Снимайте при контакте с водой и косметикой",
         "Для очистки используйте специальные средства для серебра",
       ],
-      image: "/public/images/category-2.jpg",
+      image: "/lumiere-jewels/images/category-2.jpg",
     },
     {
       name: "Платина",
@@ -85,7 +85,7 @@ export default function Metals() {
         "Можно носить постоянно, не боясь повреждений",
         "Периодически полируйте у ювелира",
       ],
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
     },
   ];
 
@@ -318,7 +318,7 @@ export default function Metals() {
             Изучите наш каталог украшений из золота, серебра и платины
           </p>
           <Link
-            to="/catalog"
+            to="/lumiere-jewels/catalog"
             className="inline-block px-10 py-4 bg-white text-gray-900 hover:bg-gray-100 transition-colors tracking-wider text-sm"
           >
             СМОТРЕТЬ КАТАЛОГ

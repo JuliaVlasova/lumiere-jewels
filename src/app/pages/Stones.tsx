@@ -8,35 +8,35 @@ export default function Stones() {
       description:
         "Самый твердый минерал на Земле. Символ вечной любви и непоколебимости.",
       properties: "Твердость 10 по шкале Мооса",
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
     },
     {
       name: "Сапфиры",
       description:
         "Благородный корунд синего цвета. Символизирует мудрость и верность.",
       properties: "Твердость 9 по шкале Мооса",
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
     },
     {
       name: "Изумруды",
       description:
         "Зеленый берилл высшего качества. Камень гармонии и природной силы.",
       properties: "Твердость 7.5-8 по шкале Мооса",
-      image: "/public/images/category-2.jpg",
+      image: "/lumiere-jewels/images/category-2.jpg",
     },
     {
       name: "Рубины",
       description:
         "Красный корунд, символ страсти и энергии. Один из самых ценных камней.",
       properties: "Твердость 9 по шкале Мооса",
-      image: "/public/images/category-1.jpg",
+      image: "/lumiere-jewels/images/category-1.jpg",
     },
     {
       name: "Жемчуг",
       description:
         "Органический драгоценный камень, рожденный в раковинах моллюсков.",
       properties: "Твердость 2.5-4.5 по шкале Мооса",
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
     },
   ];
 
@@ -79,7 +79,7 @@ export default function Stones() {
       <div
         className="relative h-96 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/public/images/article-1.jpg')`,
+          backgroundImage: `url('/lumiere-jewels/images/article-1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
@@ -219,7 +219,7 @@ export default function Stones() {
             индивидуальность
           </p>
           <Link
-            to="/catalog"
+            to="/lumiere-jewels/catalog"
             className="inline-block px-10 py-4 bg-white text-gray-900 hover:bg-gray-100 transition-colors tracking-wider text-sm"
           >
             СМОТРЕТЬ КАТАЛОГ

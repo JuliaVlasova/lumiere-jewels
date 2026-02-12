@@ -39,22 +39,22 @@ export default function Home() {
 
   const slides = [
     {
-      image: "/public/images/slider-1.jpg",
+      image: "/lumiere-jewels/images/slider-1.jpg",
       title: "Вечная классика в деталях",
       subtitle: "Кольца с натуральными сапфирами",
-      link: "/catalog/sapphires",
+      link: "/lumiere-jewels/catalog/sapphires",
     },
     {
-      image: "/public/images/slider-2.jpg",
+      image: "/lumiere-jewels/images/slider-2.jpg",
       title: "Создай свой стиль",
       subtitle: "Серебро 925 с искусственными камнями",
-      link: "/catalog/silver",
+      link: "/lumiere-jewels/catalog/silver",
     },
     {
-      image: "/public/images/slider-3.jpg",
+      image: "/lumiere-jewels/images/slider-3.jpg",
       title: "Чистота платины. Сила чувств",
       subtitle: "Эксклюзивная коллекция из платины",
-      link: "/catalog/platinum",
+      link: "/lumiere-jewels/catalog/platinum",
     },
   ];
 
@@ -62,26 +62,26 @@ export default function Home() {
     {
       title: "Натуральные камни",
       description: "Драгоценность от природы",
-      image: "/public/images/category-1.jpg",
-      link: "/stones",
+      image: "/lumiere-jewels/images/category-1.jpg",
+      link: "/lumiere-jewels/stones",
     },
     {
       title: "Искусственные камни",
       description: "Совершенство технологий",
-      image: "/public/images/category-2.jpg",
-      link: "/stones",
+      image: "/lumiere-jewels/images/category-2.jpg",
+      link: "/lumiere-jewels/stones",
     },
     {
       title: "Драгоценные металлы",
       description: "Золото, серебро, платина",
-      image: "/public/images/category-3.jpg",
-      link: "/metals",
+      image: "/lumiere-jewels/images/category-3.jpg",
+      link: "/lumiere-jewels/metals",
     },
     {
       title: "Подбор по случаю",
       description: "Для каждого момента",
-      image: "/public/images/category-4.jpg",
-      link: "/guide",
+      image: "/lumiere-jewels/images/category-4.jpg",
+      link: "/lumiere-jewels/guide",
     },
   ];
 
@@ -89,20 +89,20 @@ export default function Home() {
     {
       title: "Как отличить фианит от бриллианта?",
       excerpt: "Подробный гид по различиям между натуральными и искусственными камнями.",
-      image: "/public/images/article-1.jpg",
-      link: "/blog",
+      image: "/lumiere-jewels/images/article-1.jpg",
+      link: "/lumiere-jewels/blog",
     },
     {
       title: "Как выбрать размер кольца?",
       excerpt: "Простые способы определить свой размер кольца в домашних условиях.",
-      image: "/public/images/article-2.jpg",
-      link: "/blog",
+      image: "/lumiere-jewels/images/article-2.jpg",
+      link: "/lumiere-jewels/blog",
     },
     {
       title: "Уход за ювелирными изделиями",
       excerpt: "Советы по правильному хранению и очистке драгоценностей.",
-      image: "/public/images/article-3.jpg",
-      link: "/blog",
+      image: "/lumiere-jewels/images/article-3.jpg",
+      link: "/lumiere-jewels/blog",
     },
   ];
 
@@ -211,7 +211,7 @@ export default function Home() {
             так и в безупречных лабораторных творениях
           </p>
           <Link
-            to="/catalog"
+            to="/lumiere-jewels/catalog"
             className="inline-block px-10 py-4 bg-amber-600 text-white hover:bg-amber-700 transition-colors tracking-wider text-sm"
           >
             СМОТРЕТЬ КАТАЛОГ

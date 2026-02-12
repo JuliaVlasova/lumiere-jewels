@@ -28,7 +28,7 @@ export default function Catalog() {
       price: 15900,
       metal: "silver",
       stone: "cubic-zirconia",
-      image: "/public/images/category-1.jpg",
+      image: "/lumiere-jewels/images/category-1.jpg",
       category: "rings",
     },
     {
@@ -38,7 +38,7 @@ export default function Catalog() {
       price: 125000,
       metal: "gold",
       stone: "sapphire",
-      image: "/public/images/category-2.jpg",
+      image: "/lumiere-jewels/images/category-2.jpg",
       category: "earrings",
     },
     {
@@ -48,7 +48,7 @@ export default function Catalog() {
       price: 285000,
       metal: "platinum",
       stone: "emerald",
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
       category: "pendants",
     },
     {
@@ -58,7 +58,7 @@ export default function Catalog() {
       price: 195000,
       metal: "gold",
       stone: "diamond",
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
       category: "rings",
     },
     {
@@ -68,7 +68,7 @@ export default function Catalog() {
       price: 89000,
       metal: "gold",
       stone: "ruby",
-      image: "/public/images/category-1.jpg",
+      image: "/lumiere-jewels/images/category-1.jpg",
       category: "earrings",
     },
     {
@@ -78,7 +78,7 @@ export default function Catalog() {
       price: 35000,
       metal: "silver",
       stone: "pearl",
-      image: "/public/images/category-2.jpg",
+      image: "/lumiere-jewels/images/category-2.jpg",
       category: "bracelets",
     },
     {
@@ -88,7 +88,7 @@ export default function Catalog() {
       price: 345000,
       metal: "platinum",
       stone: "diamond",
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
       category: "rings",
     },
     {
@@ -98,7 +98,7 @@ export default function Catalog() {
       price: 22000,
       metal: "silver",
       stone: "moissanite",
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
       category: "pendants",
     },
   ];

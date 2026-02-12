@@ -12,7 +12,7 @@ export default function NotFound() {
           К сожалению, запрашиваемая страница не существует
         </p>
         <Link
-          to="/"
+          to="/lumiere-jewels/"
           className="inline-block px-8 py-3 bg-amber-600 text-white hover:bg-amber-700 transition-colors tracking-wider text-sm"
         >
           НА ГЛАВНУЮ

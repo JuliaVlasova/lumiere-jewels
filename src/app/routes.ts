@@ -13,7 +13,7 @@ import NotFound from "./pages/NotFound";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/lumiere-jewels/",
     Component: Root,
     children: [
       { index: true, Component: Home },

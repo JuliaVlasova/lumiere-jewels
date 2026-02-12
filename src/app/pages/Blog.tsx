@@ -12,7 +12,7 @@ export default function Blog() {
       author: "Анна Петрова",
       date: "8 февраля 2026",
       category: "Экспертиза",
-      image: "/public/images/article-1.jpg",
+      image: "/lumiere-jewels/images/article-1.jpg",
     },
     {
       title: "Как выбрать размер кольца?",
@@ -23,7 +23,7 @@ export default function Blog() {
       author: "Мария Соколова",
       date: "5 февраля 2026",
       category: "Советы",
-      image: "/public/images/article-2.jpg",
+      image: "/lumiere-jewels/images/article-2.jpg",
     },
     {
       title: "Уход за ювелирными изделиями",
@@ -34,7 +34,7 @@ export default function Blog() {
       author: "Дмитрий Иванов",
       date: "1 февраля 2026",
       category: "Уход",
-      image: "/public/images/article-3.jpg",
+      image: "/lumiere-jewels/images/article-3.jpg",
     },
     {
       title: "Тренды в ювелирном мире 2026",
@@ -45,7 +45,7 @@ export default function Blog() {
       author: "Елена Волкова",
       date: "28 января 2026",
       category: "Тренды",
-      image: "/public/images/category-4.jpg",
+      image: "/lumiere-jewels/images/category-4.jpg",
     },
     {
       title: "История изумрудов: от древности до наших дней",
@@ -56,7 +56,7 @@ export default function Blog() {
       author: "Анна Петрова",
       date: "25 января 2026",
       category: "История",
-      image: "/public/images/category-3.jpg",
+      image: "/lumiere-jewels/images/category-3.jpg",
     },
     {
       title: "Как выбрать помолвочное кольцо",
@@ -67,7 +67,7 @@ export default function Blog() {
       author: "Мария Соколова",
       date: "20 января 2026",
       category: "Советы",
-      image: "/public/images/category-2.jpg",
+      image: "/lumiere-jewels/images/category-2.jpg",
     },
   ];
 
@@ -132,7 +132,7 @@ export default function Blog() {
                   </div>
                 </div>
                 <Link
-                  to="/blog"
+                  to="/lumiere-jewels/blog"
                   className="inline-block px-8 py-3 bg-amber-600 text-white hover:bg-amber-700 transition-colors tracking-wider text-sm"
                 >
                   ЧИТАТЬ ДАЛЕЕ
@@ -156,7 +156,7 @@ export default function Blog() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {posts.slice(1).map((post, index) => (
               <article key={index} className="group">
-                <Link to="/blog">
+                <Link to="/lumiere-jewels/blog">
                   <div className="overflow-hidden rounded-lg mb-4">
                     <img
                       src={post.image}

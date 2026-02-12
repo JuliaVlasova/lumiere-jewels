@@ -34,19 +34,19 @@ export default function About() {
       name: "Анна Петрова",
       role: "Главный дизайнер",
       bio: "15 лет опыта в ювелирном дизайне. Выпускница МГХПА им. С.Г. Строганова.",
-      image: "/public/images/slider-1.jpg",
+      image: "/lumiere-jewels/images/slider-1.jpg",
     },
     {
       name: "Дмитрий Иванов",
       role: "Мастер-ювелир",
       bio: "20 лет создания эксклюзивных украшений. Обладатель множества наград.",
-      image: "/public/images/slider-2.jpg",
+      image: "/lumiere-jewels/images/slider-2.jpg",
     },
     {
       name: "Мария Соколова",
       role: "Эксперт по камням",
       bio: "Геммолог с международным сертификатом. Специалист по оценке драгоценных камней.",
-      image: "/public/images/slider-3.jpg",
+      image: "/lumiere-jewels/images/slider-3.jpg",
     },
   ];
 
@@ -56,7 +56,7 @@ export default function About() {
       <div
         className="relative h-[500px] bg-cover bg-center"
         style={{
-          backgroundImage: `url('/public/images/slider-1.jpg')`,
+          backgroundImage: `url('/lumiere-jewels/images/slider-1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
@@ -152,7 +152,7 @@ export default function About() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <img
-                src="/public/images/slider-1.jpg"
+                src="/lumiere-jewels/images/slider-1.jpg"
                 alt="Мастерская"
                 className="w-full h-full object-cover"
               />
@@ -247,7 +247,7 @@ export default function About() {
             вниманием к деталям
           </p>
           <Link
-            to="/catalog"
+            to="/lumiere-jewels/catalog"
             className="inline-block px-10 py-4 bg-white text-gray-900 hover:bg-gray-100 transition-colors tracking-wider text-sm"
           >
             СМОТРЕТЬ КАТАЛОГ
