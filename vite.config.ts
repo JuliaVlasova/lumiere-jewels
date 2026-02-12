@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/lumiere-jewels/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
