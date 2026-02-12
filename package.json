@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://JuliaVlasova.github.io/lumiere-jewels",
+  "homepage": "https://juliavlasova.github.io/lumiere-jewels",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
